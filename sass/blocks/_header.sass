@@ -1,0 +1,58 @@
+.main-header
+    position: relative
+    width: 100%
+    height: 100vh
+    background-color: #000000
+    background: linear-gradient(rgba(#000000, 0.5) 50%, rgba(#000000, 0.5)), url(../img/background-header-TS.jpg)
+    color: #ffffff
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: 0 0  
+.main-navigation
+    display: flex
+    padding-top: 40px
+    min-height: 75px
+.logo
+    +wisdom
+    font-size: 26px
+    line-height: 40px
+    color: #fed136
+    margin-right: 40px
+.site-navigation
+    display: flex
+    flex-wrap: wrap
+    margin: 0
+    padding: 0    
+    margin-left: auto
+    max-width: 800px
+    list-style: none
+    &__item
+        padding: 10px 0
+        padding-right: 40px
+        &:last-child
+            padding-right: 0px
+    &__link
+        +montserrat
+        color: #ffffff
+        text-transform: uppercase
+        &:hover
+            color: #fed136
+.welcome    
+    position: absolute
+    min-width: 860px
+    left: 0   
+    right: 0
+    margin: 0 auto
+    top: 50%
+    transform: translate(0, -50%)
+    text-align: center
+    &__title
+        +droid
+        font-size: 40px
+    &__subtitle
+        +montserratB
+        font-size: 75px
+        line-height: 0px
+    &__link
+        &:hover
+            color: #000000

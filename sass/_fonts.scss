@@ -12,9 +12,8 @@
     font-style: normal;
 }
 
-@mixin montserratR {
+@mixin montserrat {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
 }
 
 @mixin montserratB {
@@ -28,6 +27,7 @@
 
 @mixin droid {
     font-family: 'Droid Serif';
+    font-style: italic;
 }
 
 @mixin wisdom {
