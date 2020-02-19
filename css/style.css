@@ -213,4 +213,20 @@ body {
   width: 1px !important;
   overflow: hidden;
 }
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #777777;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  border: 1px solid red;
+  padding: 0 15px;
+}
 /*# sourceMappingURL=style.css.map */
