@@ -1,0 +1,57 @@
+.services   
+    padding-top: 100px 
+    &__title
+        margin: 0
+        padding: 0
+        +montserratB
+        font-size: 40px
+        color: #222222
+        text-transform: uppercase
+    &__quote
+        margin: 0
+        padding: 0
+        +droid
+        font-size: 16px
+    &__quote, &__title, &__name, &__description
+        text-align: center
+    &__list
+        margin: 0
+        padding: 0
+        list-style: none
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        margin-top: 70px
+        margin-bottom: 100px
+    &__item
+        width: 290px
+    &__name
+        position: relative
+        padding-top: 95px
+        +montserratB
+        font-size: 18px
+        color: #000000
+        &:before            
+            content: ''
+            position: absolute
+            background-repeat: no-repeat
+            background-position: center
+            display: block
+            width: 72px
+            height: 72px
+            top: 0
+            left: 50%
+            margin-left: -39px
+            border: 3px solid #FED136
+            border-radius: 50%          
+    &__description
+        line-height: 1.6
+.com
+    &:before
+        background-image: url(../img/Icon-Basket.png)    
+.res
+    &:before
+        background-image: url(../img/Icon-Laptop.png)
+.sec
+    &:before
+        background-image: url(../img/Icon-Locked.png)

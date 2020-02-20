@@ -329,4 +329,90 @@ body {
 .welcome__link:hover {
   color: #000000;
 }
+
+.services {
+  padding-top: 100px;
+}
+
+.services__title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.services__quote {
+  margin: 0;
+  padding: 0;
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-size: 16px;
+}
+
+.services__quote, .services__title, .services__name, .services__description {
+  text-align: center;
+}
+
+.services__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.services__item {
+  width: 290px;
+}
+
+.services__name {
+  position: relative;
+  padding-top: 95px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+
+.services__name:before {
+  content: '';
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  width: 72px;
+  height: 72px;
+  top: 0;
+  left: 50%;
+  margin-left: -39px;
+  border: 3px solid #FED136;
+  border-radius: 50%;
+}
+
+.services__description {
+  line-height: 1.6;
+}
+
+.com:before {
+  background-image: url(../img/Icon-Basket.png);
+}
+
+.res:before {
+  background-image: url(../img/Icon-Laptop.png);
+}
+
+.sec:before {
+  background-image: url(../img/Icon-Locked.png);
+}
 /*# sourceMappingURL=style.css.map */
