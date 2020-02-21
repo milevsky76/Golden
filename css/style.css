@@ -415,4 +415,113 @@ body {
 .sec:before {
   background-image: url(../img/Icon-Locked.png);
 }
+
+.portfolio {
+  background-color: #F7F7F7;
+  padding-top: 100px;
+  padding-bottom: 1px;
+}
+
+.portfolio__title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.portfolio__quote {
+  margin: 0;
+  padding: 0;
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-size: 16px;
+}
+
+.portfolio__quote, .portfolio__title {
+  text-align: center;
+}
+
+.portfolio__list {
+  margin: 0;
+  margin-top: 70px;
+  padding: 0;
+  margin-bottom: 84px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.portfolio__item {
+  margin: 0;
+  padding: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 290px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+}
+
+.portfolio__item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.portfolio__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid transparent;
+}
+
+.portfolio__link:hover {
+  border: 1px solid black;
+}
+
+.portfolio__img {
+  width: 290px;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.appellation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 93px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.appellation__title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+}
+
+.appellation__subtitle {
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-size: 14px;
+  color: #737373;
+}
 /*# sourceMappingURL=style.css.map */
