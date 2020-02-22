@@ -332,6 +332,7 @@ body {
 
 .services {
   padding-top: 100px;
+  padding-bottom: 1px;
 }
 
 .services__title {
@@ -369,7 +370,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 70px;
-  margin-bottom: 100px;
+  margin-bottom: 99px;
 }
 
 .services__item {
