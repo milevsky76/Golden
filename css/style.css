@@ -672,4 +672,181 @@ body {
       -ms-grid-row-align: center;
       align-self: center;
 }
+
+.amazing {
+  background-color: #F7F7F7;
+  padding: 100px 0;
+}
+
+.amazing__title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.amazing__quote {
+  margin: 0;
+  padding: 0;
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-size: 16px;
+}
+
+.amazing__quote, .amazing__title {
+  text-align: center;
+}
+
+.amazing__team {
+  margin: 0;
+  padding: 0;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+.amazing__text {
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  width: 590px;
+  text-align: center;
+}
+
+.team {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.team__item {
+  width: 220px;
+}
+
+.team__img {
+  border-radius: 50%;
+}
+
+.team__name {
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #222222;
+}
+
+.team__specialty {
+  display: block;
+}
+
+.team__specialty, .team__name {
+  text-align: center;
+}
+
+.team__social {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.team-social {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.team-social__item {
+  margin-right: 10px;
+}
+
+.team-social__item:last-child {
+  margin-right: 0px;
+}
+
+.team-social__link {
+  width: 38px;
+  height: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #222222;
+  border-radius: 50%;
+}
+
+.team-social__link > svg {
+  fill: #222222;
+}
+
+.tw__link:hover, .tw__link:focus {
+  background-color: #00ACED;
+  border-color: #00ACED;
+}
+
+.tw__link:hover > svg, .tw__link:focus > svg {
+  fill: #ffffff;
+}
+
+.tw__svg {
+  width: 16px;
+  height: 19px;
+}
+
+.fa__link:hover, .fa__link:focus {
+  background-color: #3B5998;
+  border-color: #3B5998;
+}
+
+.fa__link:hover > svg, .fa__link:focus > svg {
+  fill: #ffffff;
+}
+
+.fa__svg {
+  width: 11px;
+  height: 19px;
+}
+
+.gp__link:hover, .gp__link:focus {
+  background-color: #D95232;
+  border-color: #D95232;
+}
+
+.gp__link:hover > svg, .gp__link:focus > svg {
+  fill: #ffffff;
+}
+
+.gp__svg {
+  width: 17px;
+  height: 16px;
+}
+
+.pi__link:hover, .pi__link:focus {
+  background-color: #CB2028;
+  border-color: #CB2028;
+}
+
+.pi__link:hover > svg, .pi__link:focus > svg {
+  fill: #ffffff;
+}
+
+.pi__svg {
+  width: 16px;
+  height: 21px;
+}
 /*# sourceMappingURL=style.css.map */

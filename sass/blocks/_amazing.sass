@@ -1,0 +1,113 @@
+.amazing
+    background-color: #F7F7F7
+    padding: 100px 0
+    &__title
+        margin: 0
+        padding: 0
+        +montserratB
+        font-size: 40px
+        color: #222222
+        text-transform: uppercase
+    &__quote
+        margin: 0
+        padding: 0
+        +droid
+        font-size: 16px
+    &__quote, &__title
+        text-align: center
+    &__team
+        margin: 0
+        padding: 0
+        margin-top: 75px
+        margin-bottom: 50px
+    &__text
+        margin: 0 auto
+        padding: 0
+        display: block
+        width: 590px
+        text-align: center
+
+.team       
+    list-style: none
+    display: flex
+    justify-content: space-around
+    &__item
+        width: 220px
+    &__img
+        border-radius: 50%
+    &__name
+        margin: 0
+        margin-top: 15px
+        padding: 0
+        +montserratB
+        font-size: 16px
+        color: #222222
+    &__specialty
+        display: block
+    &__specialty, &__name
+        text-align: center
+    &__social
+        margin: 0
+        padding: 0
+        margin-top: 10px
+
+.team-social
+    list-style: none
+    display: flex
+    justify-content: center
+    &__item    
+        margin-right: 10px
+        &:last-child
+            margin-right: 0px     
+    &__link 
+        width: 38px
+        height: 38px
+        display: flex
+        justify-content: center
+        align-items: center
+        border: 2px solid #222222
+        border-radius: 50% 
+        & > svg
+            fill: #222222
+
+.tw
+    &__link
+        &:hover, &:focus
+            background-color: #00ACED
+            border-color: #00ACED
+        &:hover > svg, &:focus > svg
+            fill: #ffffff
+    &__svg
+        width: 16px
+        height: 19px     
+.fa
+    &__link
+        &:hover, &:focus
+            background-color: #3B5998
+            border-color: #3B5998
+        &:hover > svg, &:focus > svg
+            fill: #ffffff
+    &__svg
+        width: 11px
+        height: 19px
+.gp
+    &__link
+        &:hover, &:focus
+            background-color: #D95232
+            border-color: #D95232
+        &:hover > svg, &:focus > svg
+            fill: #ffffff
+    &__svg
+        width: 17px
+        height: 16px
+
+.pi
+    &__link
+        &:hover, &:focus
+            background-color: #CB2028
+            border-color: #CB2028
+        &:hover > svg, &:focus > svg
+            fill: #ffffff
+    &__svg
+        width: 16px
+        height: 21px
