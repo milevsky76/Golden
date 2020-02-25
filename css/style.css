@@ -978,4 +978,57 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 .contact-form__button:hover {
   color: #000000;
 }
+
+.main-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.main-footer__copy {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  color: #555555;
+}
+
+.main-footer__link {
+  color: #555555;
+  text-decoration: underline;
+}
+
+.main-footer__link:hover {
+  text-decoration: none;
+}
+
+.main-footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  min-width: 565px;
+}
+
+.team-social__link_gray {
+  border: 2px solid #222222;
+  background-color: #222222;
+}
+
+.team-social__link_gray > svg {
+  fill: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
