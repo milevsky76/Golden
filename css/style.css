@@ -911,7 +911,6 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  text-align: center;
 }
 
 .contact__title {
@@ -933,6 +932,14 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   margin-bottom: 70px;
 }
 
+.contact__quote, .contact__title {
+  text-align: center;
+}
+
+.contact-form {
+  text-align: center;
+}
+
 .contact-form__inputs {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -943,7 +950,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   margin-bottom: 25px;
 }
 
-.contact-form__textarea {
+.contact-form__column-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -959,6 +966,13 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 
 .contact-form__item:last-child {
   margin-bottom: 0px;
+}
+
+.contact-form__input:hover, .contact-form__input:focus, .contact-form__textarea:hover, .contact-form__textarea:focus {
+  border: 1px solid black;
+  -webkit-box-shadow: 0px 0px 0px 3px #FED136;
+          box-shadow: 0px 0px 0px 3px #FED136;
+  outline: none;
 }
 
 .contact-form__button:hover {

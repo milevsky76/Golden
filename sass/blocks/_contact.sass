@@ -17,14 +17,15 @@
         +droid
         font-size: 16px
         margin-bottom: 70px
-    &__quote, &__title, &__name, &__description
-    text-align: center
+    &__quote, &__title
+        text-align: center
 .contact-form
+    text-align: center
     &__inputs
         display: flex
         justify-content: space-between
         margin-bottom: 25px     
-    &__textarea
+    &__column-right
         display: flex
         margin: 0
         padding: 0  
@@ -33,7 +34,12 @@
         padding: 0
         margin-bottom: 25px
         &:last-child
-            margin-bottom: 0px    
+            margin-bottom: 0px  
+    &__input, &__textarea
+        &:hover, &:focus
+            border: 1px solid black
+            box-shadow: 0px 0px 0px 3px #FED136
+            outline: none  
     &__button
         &:hover
             color: #000000
